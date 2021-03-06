@@ -1,6 +1,6 @@
-# Science Foundation Ireland (SFI)
+# Science Foundation Ireland (SFI) - Grant Analysis
 
-Data Exploration from Science Foundation Ireland (SFI) Grant Commitments dataset
+Data Exploration from Science Foundation Ireland (SFI) Grant Commitments datasets.
 
 The two datasets show research projects funded by SFI during the years.
 
