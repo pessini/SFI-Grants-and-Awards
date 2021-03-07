@@ -1,8 +1,9 @@
 # Science Foundation Ireland (SFI) - Grant Analysis
 
-![Ireland's Open Data Portal](./dgi-logo.png){:width="50px"}
+![Ireland's Open Data Portal](./dgi-logo.png) "Ireland's Open Data Portal"
 
-For this project I will use two datasets provided by [Ireland's Open Data Portal](https://data.gov.ie/). The concept of Open Data is about making data held by public bodies available and easily accessible online for reuse and redistribution.
+
+For this project I will use two datasets provided by [Ireland's Open Data Portal](https://data.gov.ie/) :ireland:. The concept of Open Data is about making data held by public bodies available and easily accessible online for reuse and redistribution.
 
 ## Datasets
 
