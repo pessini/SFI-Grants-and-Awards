@@ -1,7 +1,6 @@
 # :ireland: Science Foundation Ireland (SFI) - Grant Analysis
 
-<img src="https://github.com/pessini/SFI-Grants/blob/main/dgi-logo.png" alt="Ireland's Open Data Portal" width="250"/>
-<img src="https://github.com/pessini/SFI-Grants/blob/main/sfi-logo.svg" alt="Science Foundation Ireland" width="250"/><br>
+<img src="https://github.com/pessini/SFI-Grants/blob/main/dgi-logo.png" alt="Ireland's Open Data Portal" width="250"/><br>
 
 
 For this data exploration project I will use two datasets provided by [Ireland's Open Data Portal](https://data.gov.ie/). The concept of Open Data is about making data held by public bodies available and easily accessible online for reuse and redistribution.
@@ -15,6 +14,8 @@ To run R in [Jupyter Notebooks](https://jupyter.org/), check out the [IRKernel](
 For a list of supported programming languages in Jupyter Notebooks, please refer to the [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) page in GitHub.
 
 ## Datasets
+
+<img src="https://github.com/pessini/SFI-Grants/blob/main/sfi-logo.svg" alt="Science Foundation Ireland" width="250"/><br>
 
 The first dataset is [Science Foundation Ireland Grant Commitments][1] and it details all STEM (science, technology, engineering and maths) research and ancillary projects funded by Science Foundation Ireland (SFI) since its foundation in 2000. For more information, check out the [Data Dictionary][3] available.
 
