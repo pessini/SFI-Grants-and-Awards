@@ -5,11 +5,13 @@
 
 For this project I will use two datasets provided by [Ireland's Open Data Portal](https://data.gov.ie/). The concept of Open Data is about making data held by public bodies available and easily accessible online for reuse and redistribution.
 
-__Software__
+__Software version__
 
-R version 4.0.2
+[R](https://www.r-project.org/foundation/) - version 4.0.2
 
-To run R in Jupyter Notebooks, check out the [IRKernel](https://irkernel.github.io/) project.
+To run R in [Jupyter Notebooks](https://jupyter.org/), check out the [IRKernel](https://irkernel.github.io/) project.
+
+For a list of supported programming languages in Jupyter Notebooks, please refer to the [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels) page in GitHub.
 
 ## Datasets
 
