@@ -17,7 +17,7 @@ For a list of supported programming languages in Jupyter Notebooks, please refer
 
 The first dataset is [Science Foundation Ireland Grant Commitments][1] and it details all STEM (science, technology, engineering and maths) research and ancillary projects funded by Science Foundation Ireland (SFI) since its foundation in 2000. For more information, check out the [Data Dictionary][3] available.
 
-The [SFI Gender Dashboard][2] includes SFI research programmes from 2011 that were managed end-to-end in SFI’s Grants and Awards Management System and reflects a binary categorisation of gender, e.g. male or female between 2011 and 2018. For more information, check out the [Data Dictionary][4] available.
+The second one, [SFI Gender Dashboard][2], includes SFI research programmes from 2011 that were managed end-to-end in SFI’s Grants and Awards Management System and reflects a binary categorisation of gender, e.g. male or female between 2011 and 2018. For more information, check out the [Data Dictionary][4] available.
 
 [1]: https://data.gov.ie/dataset/science-foundation-ireland-grant-commitments
 [2]: https://data.gov.ie/dataset/sfi-gender-dashboard-2019
