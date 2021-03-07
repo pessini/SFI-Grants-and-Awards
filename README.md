@@ -5,6 +5,12 @@
 
 For this project I will use two datasets provided by [Ireland's Open Data Portal](https://data.gov.ie/). The concept of Open Data is about making data held by public bodies available and easily accessible online for reuse and redistribution.
 
+__Software__
+
+R version 4.0.2
+
+To run R in Jupyter Notebooks, check out the [IRKernel](https://irkernel.github.io/) project.
+
 ## Datasets
 
 The dataset chosen details all STEM (science, technology, engineering and maths) research and ancillary projects funded by Science Foundation Ireland (SFI) since its foundation in 2000.
