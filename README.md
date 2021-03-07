@@ -23,3 +23,7 @@ The second one, [SFI Gender Dashboard][2], includes SFI research programmes from
 [2]: https://data.gov.ie/dataset/sfi-gender-dashboard-2019
 [3]: https://www.sfi.ie/about-us/governance/open-data/Science-Foundation-Ireland-Grant-Commitments-Metadata.pdf
 [4]: http://www.sfi.ie/about-us/women-in-science/gender/SFI-Gender-Dashboard-Data-Summary.pdf
+
+## Data exploration
+
+The Jupyter Notebook with the Data Analysis can be found [here](./grants-analysis.ipynb).
