@@ -1,6 +1,7 @@
 # :ireland: Science Foundation Ireland (SFI) - Grant Analysis
 
-<img src="https://github.com/pessini/SFI-Grants/blob/main/dgi-logo.png" alt="Ireland's Open Data Portal" width="250"/><br>
+<img src="https://github.com/pessini/SFI-Grants/blob/main/dgi-logo.png" alt="Ireland's Open Data Portal" width="250"/>
+<img src="https://github.com/pessini/SFI-Grants/blob/main/sfi-logo.svg" alt="Science Foundation Ireland" width="250"/><br>
 
 
 For this data exploration project I will use two datasets provided by [Ireland's Open Data Portal](https://data.gov.ie/). The concept of Open Data is about making data held by public bodies available and easily accessible online for reuse and redistribution.
