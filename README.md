@@ -28,4 +28,4 @@ The second one, [SFI Gender Dashboard][2], includes SFI research programmes from
 
 ## Data exploration
 
-The Jupyter Notebook with the Data Analysis can be found [here](./grants-analysis.ipynb).
+The Jupyter Notebook with the Data Analysis can be found [here](./grant-analysis.ipynb).
