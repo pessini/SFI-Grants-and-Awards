@@ -32,11 +32,15 @@ The Jupyter Notebook with the Data Analysis can be found [here](./grant-analysis
 
 ## Data Visualisation
 
+### SFI - Awards Distribution | Dashboard
+
 ![alt text][Awards Distribution]
 
 [Awards Distribution]: https://github.com/pessini/SFI-Grants/blob/main/images/awards-dist-dashboard.png "SFI - Awards Distribution | Dashboard"
 
 The Dashboard along with the Data Exploration can be found [here](https://public.tableau.com/profile/leandro.pessini#!/vizhome/ScienceFoundationIrelandSFI-AwardsDistribution/AwardsDistributionDashboard).
+
+### SFI - Gender Equality | Dashboard
 
 ![alt text][Gender Equality]
 
