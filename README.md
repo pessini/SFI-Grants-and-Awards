@@ -32,6 +32,8 @@ The Jupyter Notebook with the Data Analysis can be found [here](./grant-analysis
 
 ## Data Visualisation
 
+<img src="https://github.com/pessini/SFI-Grants/blob/main/images/tableau-logo.png" alt="Tableau" width="250"/><br>
+
 ### SFI - Awards Distribution | Dashboard
 
 ![alt text][Awards Distribution]
