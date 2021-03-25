@@ -2,7 +2,7 @@
 
 <img src="https://github.com/pessini/SFI-Grants/blob/main/images/dgi-logo.png" alt="Ireland's Open Data Portal" width="250"/><br>
 
-For this project the two datasets analized are provided by [Ireland's Open Data Portal](https://data.gov.ie/). The portal helds public data from Irish Public Sectors such as Agriculture, Economy, Housing, Transportation etc.
+The two datasets analized on this project were provided by [Ireland's Open Data Portal](https://data.gov.ie/). The portal helds public data from Irish Public Sectors such as Agriculture, Economy, Housing, Transportation etc.
 
 ### Software version
 
