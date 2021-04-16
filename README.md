@@ -1,4 +1,4 @@
-# :ireland: Science Foundation Ireland (SFI) - Grant Analysis
+# :ireland: Science Foundation Ireland (SFI) - Grants and Awards
 
 <img src="https://github.com/pessini/SFI-Grants/blob/main/images/dgi-logo.png" alt="Ireland's Open Data Portal" width="250"/><br>
 
@@ -27,9 +27,13 @@ The second one, [SFI Gender Dashboard][2], includes SFI research programmes from
 
 ## Data exploration
 
-The Jupyter Notebook with the Data Analysis can be found [here](./grant-analysis.ipynb). 
+### SFI - Awards Distribution
 
+The **focus** of this analysis is on research funding and **geographical distribution of grant awardees**. The Notebook with the analysis can be found [here](https://pessini.github.io/SFI-Grants-and-Awards/awards-distribution/). 
 
+### SFI - Gender Equality
+
+The analysis is on **gender differences** in research grants offered by SFI. The Notebook with the analysis can be found [here](https://pessini.github.io/SFI-Grants-and-Awards/gender-equality/).
 
 ## Data Visualisation
 
