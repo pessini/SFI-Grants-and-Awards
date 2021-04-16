@@ -14,7 +14,7 @@ For a list of supported programming languages in Jupyter Notebooks, please refer
 
 ## Datasets
 
-<img title="" src="https://github.com/pessini/SFI-Grants/blob/main/images/SFI_logo_2017__Dual(long)_CMYK.png" alt="Science Foundation Ireland" width="250"><br>
+<img title="" src="https://github.com/pessini/SFI-Grants/blob/main/images/SFI_logo_2017__Dual(long)_CMYK.png" alt="Science Foundation Ireland" width="250" height="100"><br>
 
 The first dataset is [Science Foundation Ireland Grant Commitments][1] and it details all STEM (science, technology, engineering and maths) research and ancillary projects funded by Science Foundation Ireland (SFI) since its foundation in 2000. For more information, check out the [Data Dictionary][3] available.
 
@@ -31,7 +31,7 @@ The second one, [SFI Gender Dashboard][2], includes SFI research programmes from
 
 The **focus** of this analysis is on research funding and **geographical distribution of grant awardees**. The Notebook with the analysis can be found [here](https://pessini.github.io/SFI-Grants-and-Awards/awards-distribution/). 
 
-### 
+### Gender Equality
 
 The analysis is on **gender differences** in research grants offered by SFI. The Notebook with the analysis can be found [here](https://pessini.github.io/SFI-Grants-and-Awards/gender-equality/).
 
