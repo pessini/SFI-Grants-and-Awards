@@ -14,7 +14,7 @@ For a list of supported programming languages in Jupyter Notebooks, please refer
 
 ## Datasets
 
-<img title="" src="https://github.com/pessini/SFI-Grants/blob/main/images/SFI_logo_2017__Dual(long)_CMYK.png" alt="Science Foundation Ireland" width="250" height="100"><br>
+<img title="" src="https://github.com/pessini/SFI-Grants/blob/main/images/SFI_logo_2017__Dual(long)_CMYK.png" alt="Science Foundation Ireland" width="350"><br>
 
 The first dataset is [Science Foundation Ireland Grant Commitments][1] and it details all STEM (science, technology, engineering and maths) research and ancillary projects funded by Science Foundation Ireland (SFI) since its foundation in 2000. For more information, check out the [Data Dictionary][3] available.
 
