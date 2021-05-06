@@ -33,7 +33,7 @@ The **focus** of this analysis is on research funding and **geographical distrib
 
 ### Gender Equality
 
-The analysis is on **gender differences** in research grants offered by SFI. The Notebook with the analysis can be found [here](https://pessini.github.io/SFI-Grants-and-Awards/gender-equality/).
+The analysis is based on **gender differences** in research grants offered by SFI. The Notebook with the analysis can be found [here](https://pessini.github.io/SFI-Grants-and-Awards/gender-equality/).
 
 ## Data Visualisation
 
