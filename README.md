@@ -37,7 +37,7 @@ The analysis is based on **gender differences** in research grants offered by SF
 
 [Awards Distribution]: https://github.com/pessini/SFI-Grants/blob/main/images/awards-dist-dashboard.png "SFI - Awards Distribution | Dashboard"
 
-The Dashboard along with the Data Exploration can be found [here](https://public.tableau.com/profile/leandro.pessini#!/vizhome/ScienceFoundationIrelandSFI-AwardsDistribution/AwardsDistributionDashboard).
+Tableau Dashboard along with the Data Exploration can be found [here](https://public.tableau.com/profile/leandro.pessini#!/vizhome/ScienceFoundationIrelandSFI-AwardsDistribution/AwardsDistributionDashboard).
 
 ### Gender Equality | Dashboard
 
@@ -45,7 +45,7 @@ The Dashboard along with the Data Exploration can be found [here](https://public
 
 [Gender Equality]: https://github.com/pessini/SFI-Grants/blob/main/images/gender-dashboard.png "SFI - Gender Equality | Dashboard"
 
-The Dashboard along with the Data Exploration can be found [here](https://public.tableau.com/profile/leandro.pessini#!/vizhome/ScienceFoundationIrelandSFI-Gender/Awards-Gender).
+Tableau Dashboard along with the Data Exploration can be found [here](https://public.tableau.com/profile/leandro.pessini#!/vizhome/ScienceFoundationIrelandSFI-Gender/Awards-Gender).
 
 ---
 
