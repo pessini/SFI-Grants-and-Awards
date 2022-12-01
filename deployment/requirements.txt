@@ -1,0 +1,4 @@
+pandas==1.5.2
+numpy==1.23.5
+streamlit==1.15.1
+streamlit_option_menu==0.3.2
