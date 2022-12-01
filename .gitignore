@@ -6,6 +6,7 @@
 */.ipynb_checkpoints/*
 
 .idea/*
+conda-env/
 
 .DS_Store
 .Rhistory
