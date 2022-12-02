@@ -10,8 +10,9 @@ import shutil
 
 # -------------- SETTINGS --------------
 page_title = "Science Foundation Ireland (SFI) - Grants and Awards"
-page_subtitle = "SFI - Grants & Awards"
-page_icon = ":mortar_board:"  # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
+page_subtitle = "🎓 SFI - Grants & Awards"
+# page_icon = ":mortar-board:"  # emojis: https://www.webfx.com/tools/emoji-cheat-sheet/
+page_icon = "🇮🇪"
 layout = "wide" # Can be "centered" or "wide". In the future also "dashboard", etc.
 #---------------------------------#
 # Page layout
@@ -88,7 +89,7 @@ with st.sidebar:
     st.write('---') # separator
     
     selected = option_menu(
-        # menu_title="Menu",
+        # menu_title="Main Menu",
         menu_title=None,
         options=["About", "Awards Distribution", "Gender Equality"],
         icons=["award", "geo-alt", "gender-ambiguous"],  # https://icons.getbootstrap.com/
@@ -113,6 +114,7 @@ def main():
     #------- About --------#  
     if selected == "About":
 
+        st.image('https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/images/dgi-logo.png?raw=true', width=200)
         st.write('''The two datasets analized on this project were provided by 
                 [Ireland's Open Data Portal](https://data.gov.ie/). The portal helds public data from Irish Public Sectors 
                 such as Agriculture, Economy, Housing, Transportation etc.\n''')
@@ -129,6 +131,17 @@ def main():
                 [4]: http://www.sfi.ie/about-us/women-in-science/gender/SFI-Gender-Dashboard-Data-Summary.pdf
                 ''')
 
+        # st.write('''### Analyses''')
+        col1, col2 = st.columns(2)
+        with col1:
+            st.write('''#### Awards Distribution Analysis''')
+            st.image('https://pessini.me/SFI-Grants-and-Awards/images/research-grant-approved.jpeg', width=300)
+            st.write('''[See Jupyter Notebook](https://pessini.me/SFI-Grants-and-Awards/awards-distribution/)''')
+        with col2:
+            st.write('''#### Gender differences in research grant applications''')
+            st.image('https://pessini.me/SFI-Grants-and-Awards/images/gender_equality.jpeg', width=300)
+            st.write('''[See Jupyter Notebook](https://pessini.me/SFI-Grants-and-Awards/gender-equality/)''')
+
 
     #------- Awards Distribution --------#
     if selected == "Awards Distribution":
@@ -141,6 +154,8 @@ def main():
                         * [2. Dataset](#dataset)
                         * [3. Audience](#audience)
                         * [4. Dashboard](#tableau-dashboard)''')
+            
+        
 
         st.write('''This report will provide an overview of awards applied by [Science Foundation Ireland (SFI)](https://www.sfi.ie/) which is the national foundation for investment in scientific and engineering research. The data provided covers a period of time from 2000 to 2019.
 
