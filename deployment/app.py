@@ -137,7 +137,7 @@ def main():
         
         with st.expander("Table of Contents"):
             st.markdown('''
-                        * [1. Introduction](#awards-distribution)
+                        * [1. Introduction](#an-overview-of-science-funding-distribution-in-ireland)
                         * [2. Dataset](#dataset)
                         * [3. Audience](#audience)
                         * [4. Dashboard](#tableau-dashboard)''')
