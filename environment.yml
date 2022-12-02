@@ -31,11 +31,11 @@ dependencies:
   - bwidget=1.9.14=h694c41f_1
   - bzip2=1.0.8=h0d85af4_4
   - c-ares=1.18.1=h0d85af4_0
-  - ca-certificates=2022.10.11=hecd8cb5_0
+  - ca-certificates=2022.9.24=h033912b_0
   - cachetools=5.2.0=pyhd8ed1ab_0
   - cairo=1.16.0=h904041c_1014
   - cctools_osx-64=973.0.1=hcc6d90d_11
-  - certifi=2022.9.24=py310hecd8cb5_0
+  - certifi=2022.9.24=pyhd8ed1ab_0
   - cffi=1.15.1=py310ha78151a_2
   - charset-normalizer=2.1.1=pyhd8ed1ab_0
   - clang=14.0.6=h694c41f_0
@@ -162,7 +162,7 @@ dependencies:
   - notebook-shim=0.2.2=pyhd8ed1ab_0
   - numpy=1.23.5=py310h1b7c290_0
   - openjpeg=2.5.0=h5d0d7b0_1
-  - openssl=1.1.1s=hca72f7f_0
+  - openssl=1.1.1s=hfd90126_0
   - orc=1.7.4=h9274d09_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandas=1.5.2=py310hecf8f37_0
@@ -170,6 +170,7 @@ dependencies:
   - pandocfilters=1.5.0=pyhd8ed1ab_0
   - pango=1.50.12=h7fca291_0
   - parso=0.8.3=pyhd8ed1ab_0
+  - pathlib=1.0.1=py310h2ec42d9_7
   - pcre2=10.40=h1c4e4bc_0
   - pexpect=4.8.0=pyh1a96a4e_2
   - pickleshare=0.7.5=py_1003
