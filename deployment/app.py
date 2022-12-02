@@ -151,8 +151,8 @@ SFI provides awards to support scientists and engineers working in the fields of
 The **focus** of this report is on research funding and **geographical distribution** of **grant awardees**.''')
 
         st.write('''### Dataset''')
-        # st.caption('Data from the past three months')
         awards_dist = pd.read_csv('data/Open-Data-Final.csv')
+        st.caption(f"""{awards_dist.shape[0]} rows with {awards_dist.shape[1]} columns""")
         st.dataframe(awards_dist, use_container_width=True)
         
         st.write('''### Audience''')
@@ -189,6 +189,11 @@ The Agreed Programme for Government, published June 2002, provided for establish
 SFI provides awards to support scientists and engineers working in the fields of science and engineering that underpin biotechnology, information and communications technology and sustainable energy and energy-efficient technologies.
 
 The analysis is on gender differences in research grants offered by SFI whether the award was accepted or declined by the applicant.''')
+        
+        st.write('''### Dataset''')
+        gender_df = pd.read_csv('data/SFIGenderDashboard_TableauPublic_2019.csv')
+        st.caption(f"""{gender_df.shape[0]} rows with {gender_df.shape[1]} columns""")
+        st.dataframe(gender_df, use_container_width=True)
         
         st.write('''### Audience''')
         st.write('''A core principle of data analysis is understanding your audience before designing your visualization. It is important to match your visualization to your viewer’s information needs.
