@@ -4,6 +4,10 @@ from streamlit_option_menu import option_menu
 import socket
 import pandas as pd
 import numpy as np
+import pathlib
+from bs4 import BeautifulSoup
+import logging
+import shutil
 
 # -------------- SETTINGS --------------
 page_title = "SFI - Grants & Awards"
@@ -41,6 +45,36 @@ hide_st_style = """
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
+def inject_ga():
+    GA_ID = "google_analytics"
+    GA_JS = """
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FKJ7B5EVFT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FKJ7B5EVFT');
+</script>"""
+
+    # Insert the script in the head tag of the static template inside your virtual
+    index_path = pathlib.Path(st.__file__).parent / "static" / "index.html"
+    logging.info(f'editing {index_path}')
+    soup = BeautifulSoup(index_path.read_text(), features="html.parser")
+    if not soup.find(id=GA_ID): 
+        bck_index = index_path.with_suffix('.bck')
+        if bck_index.exists():
+            shutil.copy(bck_index, index_path)  
+        else:
+            shutil.copy(index_path, bck_index)  
+        html = str(soup)
+        new_html = html.replace('<head>', '<head>\n' + GA_JS)
+        index_path.write_text(new_html)
+
+
+inject_ga()
 
 #####################################################
 ##### Trick to hide table and dataframe indexes #####
@@ -147,11 +181,5 @@ if selected == "Gender Equality":
     st.subheader("Gender Equality")
 
     st.write('''This table shows the predicted bike rentals demand for the next hours based on Weather data.\n''')
-    
-    
-    
-    
-    
-    
-    
+
     
