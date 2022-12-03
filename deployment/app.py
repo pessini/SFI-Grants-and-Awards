@@ -158,10 +158,19 @@ The focus of this report is on research funding and **geographical distribution*
         st.write('''### Dataset''')
         awards_dist = pd.read_csv('data/Open-Data-Final.csv')
         st.caption(f"""{awards_dist.shape[0]} rows with {awards_dist.shape[1]} columns""")
-        st.dataframe(awards_dist, use_container_width=True)
+        st.dataframe(awards_dist.head(5), use_container_width=True)
         
         st.write('''### Audience''')
         st.write('''This ad hoc analysis aims to deliver a presentation to the SFI Board Members. The Board has several responsibilities which include the revision of strategies of the Agency and major plans of action. One of their major functions is to establish the Agency's direction and how the resources are allocated.''')
+        
+        st.write('''### A few insights''')
+        col1, col2 = st.columns(2)
+        with col1:
+            st.image('https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/deployment/images/output_27_0.png?raw=true', use_column_width=True)
+        with col2:
+            st.image('https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/deployment/images/output_46_0.png?raw=true', use_column_width=True)
+            
+        st.write('''[See Jupyter Notebook](https://pessini.me/SFI-Grants-and-Awards/awards-distribution/)''')
         
         st.write('''### Tableau® Dashboard''')
         st.image('https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/images/awards-dist-dashboard.png?raw=true', 
@@ -185,10 +194,19 @@ The analysis is on **gender differences** in research grants offered by SFI whet
         st.write('''### Dataset''')
         gender_df = pd.read_csv('data/SFIGenderDashboard_TableauPublic_2019.csv')
         st.caption(f"""{gender_df.shape[0]} rows with {gender_df.shape[1]} columns""")
-        st.dataframe(gender_df, use_container_width=True)
+        st.dataframe(gender_df.tail(5), use_container_width=True)
         
         st.write('''### Audience''')
         st.write('''This ad hoc analysis aims to deliver a presentation to the SFI Executive staff, Director of Science for Society. The director has the responsibility for overseeing all Science Foundation Ireland research funding programs and management of funded awards.''')
+        
+        st.write('''### A few insights''')
+        col1, col2 = st.columns(2)
+        with col1:
+            st.image('https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/deployment/images/output_40_0.png?raw=true', use_column_width=True)
+        with col2:
+            st.image('https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/deployment/images/output_35_0.png?raw=true', use_column_width=True)
+            
+        st.write('''[See Jupyter Notebook](https://pessini.me/SFI-Grants-and-Awards/gender-equality/)''')
         
         st.write('''### Tableau® Dashboard''')
         st.image('https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/images/gender-dashboard.png?raw=true', 
