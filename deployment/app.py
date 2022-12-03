@@ -104,9 +104,9 @@ with st.sidebar:
     )
     
     footer_github = """<div style='position: fixed; bottom:10px; width:100%; font-size: 12px;'>
-    <img title="GitHub Mark" src="https://github.com/pessini/avian-flu-wild-birds-ireland/blob/main/img/GitHub-Mark-64px.png?raw=true" 
+    <img title="GitHub Mark" src="https://raw.githubusercontent.com/pessini/SFI-Grants-and-Awards/main/images/GitHub-Mark-64px.png?raw=true" 
     style="height: 28px; padding-right: 8px" alt="GitHub Mark" align="left"> 
-    <a href='https://github.com/pessini/moby-bikes' target='_blank'>GitHub Repository</a> <br>Author: Leandro Pessini
+    <a href='https://github.com/pessini/SFI-Grants-and-Awards' target='_blank'>GitHub Repository</a> <br>Author: Leandro Pessini
     </div>"""
     st.markdown(footer_github, unsafe_allow_html=True)
 
