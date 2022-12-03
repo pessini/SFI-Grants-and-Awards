@@ -113,7 +113,7 @@ with st.sidebar:
 def main():
     #------- About --------#  
     if selected == "About":
-        # Report on research funding and geographical distribution of grant awardees and gender differences in research grant applications.
+        st.subheader("About")
         st.write('''The Agreed Programme for Government, published June 2002, provided for establishing SFI as a separate legal entity. In July 2003, SFI was established on a statutory basis under the Industrial Development (Science Foundation Ireland) Act, 2003.''')
         st.write('''[Science Foundation Ireland (SFI)](https://www.sfi.ie/) provides awards to support scientists and engineers working in the fields of science and engineering that underpin biotechnology, information and communications technology and sustainable energy and energy-efficient technologies.''')
 
@@ -129,15 +129,15 @@ def main():
                 [4]: http://www.sfi.ie/about-us/women-in-science/gender/SFI-Gender-Dashboard-Data-Summary.pdf
                 ''')
         
-
-        # st.write('''### Analyses''')
+        st.success("Project consists in reporting research funding and geographical distribution of grant awardees and gender differences in research grant applications.", 
+                   icon="🇮🇪")
         col1, col2 = st.columns(2)
         with col1:
-            st.write('''#### Awards Distribution Analysis''')
+            st.write('''##### Awards Distribution Analysis''')
             st.image('https://pessini.me/SFI-Grants-and-Awards/images/research-grant-approved.jpeg', width=300)
             st.write('''[See Jupyter Notebook](https://pessini.me/SFI-Grants-and-Awards/awards-distribution/)''')
         with col2:
-            st.write('''#### Gender differences in research grant applications''')
+            st.write('''##### Gender differences in research grant applications''')
             st.image('https://pessini.me/SFI-Grants-and-Awards/images/gender_equality.jpeg', width=300)
             st.write('''[See Jupyter Notebook](https://pessini.me/SFI-Grants-and-Awards/gender-equality/)''')
             
@@ -150,12 +150,10 @@ def main():
 
     #------- Awards Distribution --------#
     if selected == "Awards Distribution":
-        # st.header('Demand Forecasting')
         st.subheader("An overview of science funding distribution in Ireland")
-
-        st.write('''This report will provide an overview of awards applied by [Science Foundation Ireland (SFI)](https://www.sfi.ie/) which is the national foundation for investment in scientific and engineering research. The data provided covers a period of time from 2000 to 2019.
-
-The **focus** of this report is on research funding and **geographical distribution** of **grant awardees**.''')
+        st.write('''This report will provide an **overview of awards** applied by Science Foundation Ireland (SFI). The data provided covers a period of time from 2000 to 2019.
+                 
+The focus of this report is on research funding and **geographical distribution** of **grant awardees**.''')
 
         st.write('''### Dataset''')
         awards_dist = pd.read_csv('data/Open-Data-Final.csv')
@@ -180,9 +178,9 @@ The **focus** of this report is on research funding and **geographical distribut
     if selected == "Gender Equality":
         # st.header('Demand Forecasting')
         st.subheader("Gender Equality in STEM Research Programmes in Ireland")
-        st.write('''This report will provide an overview of gender equality in awards applied by Science Foundation Ireland (SFI) which is the national foundation for investment in scientific and engineering research. The data provided covers a period of time between 2011 and 2018.
+        st.write('''This report will provide an overview of gender equality in awards applied by Science Foundation Ireland (SFI). The data provided covers a period of time between 2011 and 2018.
                  
-The analysis is on gender differences in research grants offered by SFI whether the award was accepted or declined by the applicant.''')
+The analysis is on **gender differences** in research grants offered by SFI whether the **award was accepted or declined** by the applicant.''')
         
         st.write('''### Dataset''')
         gender_df = pd.read_csv('data/SFIGenderDashboard_TableauPublic_2019.csv')
