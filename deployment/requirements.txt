@@ -4,3 +4,4 @@ streamlit==1.15.1
 streamlit_option_menu==0.3.2
 beautifulsoup4==4.11.1
 pathlib==1.0.1
+altair==4.2.2
