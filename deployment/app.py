@@ -7,6 +7,7 @@ import pathlib
 from bs4 import BeautifulSoup
 import logging
 import shutil
+import os
 
 # -------------- SETTINGS --------------
 page_title = "Science Foundation Ireland (SFI) - Grants and Awards"
@@ -59,8 +60,10 @@ def inject_ga():
   gtag('config', 'G-FKJ7B5EVFT');
 </script>"""
 
+    st.write(os.path.dirname(__file__))
     # Insert the script in the head tag of the static template inside your virtual
     index_path = pathlib.Path(st.__file__).parent / "static" / "index.html"
+    st.write(index_path)
     logging.info(f'editing {index_path}')
     soup = BeautifulSoup(index_path.read_text(), features="html.parser")
     if not soup.find(id=GA_ID): 
