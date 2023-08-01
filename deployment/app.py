@@ -48,7 +48,6 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 def inject_ga():
-    GA_ID = "google_analytics"
     GA_JS = """
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKJ7B5EVFT"></script>
@@ -60,22 +59,7 @@ def inject_ga():
   gtag('config', 'G-FKJ7B5EVFT');
 </script>"""
 
-    st.write(os.path.dirname(__file__))
-    # Insert the script in the head tag of the static template inside your virtual
-    index_path = pathlib.Path(st.__file__).parent / "static" / "index.html"
-    st.write(index_path)
-    logging.info(f'editing {index_path}')
-    soup = BeautifulSoup(index_path.read_text(), features="html.parser")
-    if not soup.find(id=GA_ID): 
-        bck_index = index_path.with_suffix('.bck')
-        if bck_index.exists():
-            shutil.copy(bck_index, index_path)  
-        else:
-            shutil.copy(index_path, bck_index)  
-        html = str(soup)
-        new_html = html.replace('<head>', '<head>\n' + GA_JS)
-        index_path.write_text(new_html)
-
+    st.markdown(GA_JS, unsafe_allow_html=True)
 
 inject_ga()
 
