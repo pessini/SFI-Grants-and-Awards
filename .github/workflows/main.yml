@@ -2,7 +2,7 @@ name: Daily Empty Commit
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at 00:00
+    - cron: '0 12 * * *' # Runs daily at 00:00
 
 jobs:
   build:
@@ -12,5 +12,7 @@ jobs:
 
       - name: Commit and Push
         run: |
+          git config user.name "Leandro Pessini"
+          git config user.email "leandro@pessini.me"
           git commit --allow-empty -m "Prevent streamlit from going to sleep mode"
-          git push origin main
+          git push origin main 
