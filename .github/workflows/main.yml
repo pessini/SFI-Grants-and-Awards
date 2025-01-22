@@ -1,0 +1,16 @@
+name: Daily Empty Commit
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at 00:00
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Commit and Push
+        run: |
+          git commit --allow-empty -m "Prevent streamlit from going to sleep mode"
+          git push origin main
